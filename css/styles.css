@@ -1,0 +1,21 @@
+     body, html {
+         margin: 0;
+         padding: 0;
+         height: 100%;
+         width: 100%;
+     }
+
+     .image-container {
+         position: relative;
+         height: 100%;
+         width: 100%;
+     }
+
+     .image-container img {
+         position: absolute;
+         top: 0;
+         left: 0;
+         height: 100%;
+         width: 100%;
+         object-fit: cover;
+     }
